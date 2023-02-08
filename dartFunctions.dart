@@ -33,7 +33,7 @@ main() {
 
 //First element of List
   String getFirstElement(var list) {
-    String firstElement = list.indexOf(0);
+    String firstElement = list.first;
     return firstElement;
   }
 }
